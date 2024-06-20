@@ -16,7 +16,7 @@ def index():
 
 @app.route('/RegistrarMedico')
 def RegistrarMedico():
-    return render_template('RegistrarMedico.html')
+    return render_template('RegistroMedico.html')
 
 @app.route('/guardarMedico', methods=['POST'])
 def guardarMedico():

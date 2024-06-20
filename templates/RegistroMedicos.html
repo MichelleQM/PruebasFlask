@@ -7,14 +7,14 @@
     <title>Registro Medicos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="estilop.css">
+    <link rel="stylesheet" href="static/estilop.css">
 </head>
 
 <body>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="{{ url_for('RegistrarMedico') }}">MedCare</a>
+            <a class="navbar-brand" href="{{ url_for('index') }}">MedCare</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"
-                            href="{{ url_for('RegistrarMedico') }}">Inicio</a></li>
+                            href="{{ url_for('/') }}">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4"
                             href="{{ url_for('RegistrarMedico') }}">Registro Medicos</a></li>
                 </ul>
